@@ -1,0 +1,41 @@
+.row
+{
+    margin-right: 0; 
+}
+
+.container-fluid
+{
+    position: absolute;
+    width: calc(100% - 25em);
+    left: 23em;
+}
+
+ul
+{
+    padding-inline-start: 20px;
+}
+
+.icon
+{
+    font-size: 25px;
+    color: black;
+}
+.icon:hover 
+{
+    cursor: pointer;
+	-ms-transform: scale(1.25); 
+	-webkit-transform: scale(1.25); 
+	transform: scale(1.25);
+}
+
+.course
+{
+    vertical-align: middle;
+}
+
+a
+{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}

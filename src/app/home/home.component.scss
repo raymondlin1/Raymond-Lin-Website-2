@@ -1,0 +1,23 @@
+#portrait
+{
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+.container
+{
+    position: absolute;
+    left: 23em;
+}
+
+#link-to-old
+{
+    font-size: 17px;
+    color: black;
+}

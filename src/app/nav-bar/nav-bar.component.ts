@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import $ from 'jquery';
 
 @Component({
   selector: 'app-nav-bar',
@@ -10,7 +11,11 @@ export class NavBarComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+    $(window).scroll(function() {
+        $('#nav-bar').css('left',-$(window).scrollLeft());
+    });
   }
 
   onClickHome()
@@ -23,4 +28,6 @@ export class NavBarComponent implements OnInit {
     console.log("resume")
     this.router.navigate(['resume']);
   }
+
+  
 }
