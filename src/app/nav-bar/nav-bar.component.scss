@@ -62,3 +62,27 @@ button:focus
 	-webkit-transform: scale(1.25); 
 	transform: scale(1.25);
 }
+
+@media (max-width: 600px)
+{
+    #nav-bar
+    {
+        width: 20%;
+    }
+
+    .link
+    {
+        font-size: 12px;
+    }
+
+    div > button::before, a::before
+    {
+        height: 1px;
+        width: 80%;
+    }
+
+    .icon
+    {
+        font-size: 15   px;
+    }
+}
