@@ -21,3 +21,43 @@ button:focus
     font-size: 17px;
     color: black;
 }
+
+@media (max-width: 600px)
+{
+    .greeting
+    {
+        font-size: 35px;
+    }
+
+    .container
+    {
+        left: 0;
+        top: 200px;
+        z-index: 0;
+        width: 100% !important;
+        overflow-x: hidden !important;
+        padding: 0 !important;
+    }
+
+    .text
+    {
+        font-size: 12px;
+    }
+
+    #portrait
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    #portrait-wrapper
+    {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #link-to-old
+    {
+        font-size: 12px;
+    }
+}
